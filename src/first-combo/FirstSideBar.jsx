@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom'; // Import Link for navigation
 function FirstSideBar() {
     // Array of sidebar items with additional fields
     const sidebarItems = [
-        { label: 'Dashboard', icon: '🏠', link: '/' },
-        { label: 'Profile', icon: '👤', link: '/profile' },
-        { label: 'Settings', icon: '⚙️', link: '/settings' },
-        { label: 'Messages', icon: '✉️', link: '/messages' },
-        { label: 'Notifications', icon: '🔔', link: '/notifications' },
-        { label: 'Help', icon: '❓', link: '/help' },
-        { label: 'Sign Out', icon: '🚪', link: '/sign-out' },
+        { label: 'Dashboard', icon: '🏠', link: '/first' },
+        { label: 'Profile', icon: '👤', link: '/first/another' },
+        { label: 'Settings', icon: '⚙️', link: '/first' },
+        { label: 'Messages', icon: '✉️', link: '/first/another' },
+        { label: 'Notifications', icon: '🔔', link: '/first' },
+        { label: 'Help', icon: '❓', link: '/first/another' },
+        { label: 'Switch to Mode 1', icon: '🚪', link: '/first' },
+        { label: 'Switch to Mode 2', icon: '🚪', link: '/second' },
         // Add more items as needed
     ];
 

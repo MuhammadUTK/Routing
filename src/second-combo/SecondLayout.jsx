@@ -1,14 +1,13 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import {FirstSideBar} from './';
-import {FirstNavbar} from './';
+import {SecondNavbar, SecondSideBar} from "./";
 
-function FirstLayout( ) {
+function SecondLayout() {
     return (
         <div>
-            <FirstNavbar />
+            <SecondNavbar />
             <div className="d-flex">
-                <FirstSideBar />
+                <SecondSideBar />
                 <div className="flex-grow-1 p-3">
                     <Outlet />
                 </div>
@@ -17,4 +16,4 @@ function FirstLayout( ) {
     );
 }
 
-export default FirstLayout;
+export default SecondLayout;
